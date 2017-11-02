@@ -1,0 +1,82 @@
+{
+  "name": "using-feathersjs-apollo",
+  "description": "Functional demo using feathersjs, graphql, apollo, ...",
+  "version": "1.0.0",
+  "homepage": "https://using-feathers-apollo.herokuapp.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CapgeminiNorway/using-feathers-apollo-graphql.git"
+  },
+  "main": "src",
+  "keywords": [
+    "feathers",
+    "feathersjs",
+    "graphql",
+    "apollo",
+    "apollo-server"
+  ],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": "8.9.x",
+    "yarn": "1.2.x",
+    "npm": "5.5.x"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "start": "babel-node src/",
+    "dev": "nodemon src/ --exec babel-node --presets es2015",
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "mocha": "mocha test/ --recursive"
+  },
+  "dependencies": {
+    "@feathersjs/authentication": "^1.4.1",
+    "@feathersjs/authentication-jwt": "^1.0.0",
+    "@feathersjs/authentication-local": "^1.0.0",
+    "@feathersjs/configuration": "^1.0.0",
+    "@feathersjs/errors": "^3.0.0",
+    "@feathersjs/express": "^1.0.0",
+    "@feathersjs/feathers": "^3.0.0",
+    "apollo-server": "^0.3.3",
+    "apollo-server-express": "^1.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "feathers-authentication-hooks": "^0.1.5",
+    "feathers-batch": "^0.1.1",
+    "feathers-fs": "^1.1.0",
+    "feathers-hooks-common": "^3.10.0",
+    "feathers-mongodb": "^2.9.1",
+    "feathers-mongodb-fuzzy-search": "^1.1.1",
+    "feathers-nedb": "^2.7.0",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.6.1",
+    "graphql-type-json": "^0.1.4",
+    "helmet": "^3.9.0",
+    "moment": "^2.19.1",
+    "nedb": "^1.8.0",
+    "nodemon": "^1.12.1",
+    "query-string": "^5.0.1",
+    "serve-favicon": "^2.4.5",
+    "ua-parser-js": "^0.7.17",
+    "validator": "^9.1.1",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "mocha": "^4.0.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
