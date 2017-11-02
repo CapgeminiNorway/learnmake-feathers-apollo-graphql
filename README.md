@@ -20,6 +20,7 @@ Getting up and running is as easy as 1, 2, 3.
     yarn start
     ```
 
+Calling [/graphiql](http://localhost:3030/graphiql) of your dev instance will show you the in-browser IDE for exploring GraphQL.  
 
 This project uses [Feathers](http://feathersjs.com), an open source web framework for building modern real-time applications. 
 Feathers has a powerful command line interface. Please read thru [Feathers docs](https://docs.feathersjs.com/).  
