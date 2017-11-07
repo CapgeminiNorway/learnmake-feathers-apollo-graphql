@@ -44,7 +44,7 @@
     "@feathersjs/authentication-local": "^1.0.0",
     "@feathersjs/configuration": "^1.0.0",
     "@feathersjs/errors": "^3.0.0",
-    "@feathersjs/express": "^1.0.0",
+    "@feathersjs/express": "^1.1.1",
     "@feathersjs/feathers": "^3.0.0",
     "apollo-server": "^0.3.3",
     "apollo-server-express": "^1.2.0",
