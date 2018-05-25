@@ -6,7 +6,7 @@ This project uses [Feathers](http://feathersjs.com), [GraphQL](http://graphql.or
 
 Getting up and running is as easy as 1, 2, 3.
 
-1. Make sure you have [NodeJS _'v8.9.x LTS'_](https://nodejs.org/), [npm _'v5.5.x'_](https://www.npmjs.com/), and [Yarn _'latest-version'_](https://yarnpkg.com) installed. 
+1. Make sure you have [NodeJS](https://nodejs.org/), [npm](https://www.npmjs.com/), and [Yarn](https://yarnpkg.com) installed, _see [package.json](package.json) for the required versions._ 
 
 2. Install your dependencies
 
@@ -27,7 +27,7 @@ Feathers has a powerful command line interface. Please read thru [Feathers docs]
 Here are a few things it can do:  
 
 ```
-$ npm install @feathersjs/cli -g             # Install Feathers CLI v3.x  
+$ yarn global add @feathersjs/cli             # Install Feathers CLI v3.x  
 
 $ feathers generate service               # Generate a new Service
 $ feathers generate hook                  # Generate a new Hook
@@ -38,6 +38,6 @@ $ feathers help                           # Show all commands
 
 ## License
 
-Copyleft 2017
+Copyleft 2017-2018
 
 Licensed under the [MIT license](LICENSE).
